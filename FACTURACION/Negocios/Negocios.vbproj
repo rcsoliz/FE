@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{F0FB2A71-E95B-4884-AD11-F79EA6F30F8D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Negocios</RootNamespace>
+    <AssemblyName>Negocios</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Negocios.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Negocios.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1 Parametros\CatalogoBL.vb" />
+    <Compile Include="1 Parametros\ConfiguracionBL.vb" />
+    <Compile Include="1 Parametros\EmpresaBL.vb" />
+    <Compile Include="1 Parametros\FechaFacturasBL.vb" />
+    <Compile Include="1 Parametros\UtilitarioSIN.vb" />
+    <Compile Include="2 Ventas\ClienteNegocioBL.vb" />
+    <Compile Include="2 Ventas\ClienteInBL.vb" />
+    <Compile Include="2 Ventas\PreVentaBL.vb" />
+    <Compile Include="3 Acceso\DatosAccesoBL.vb" />
+    <Compile Include="3 Acceso\PermisoBL.vb" />
+    <Compile Include="4 Menu\CobAcces1BL.vb" />
+    <Compile Include="4 Menu\CobMenu11BL.vb" />
+    <Compile Include="4 Menu\CobMenu22BL.vb" />
+    <Compile Include="4 Menu\CobModulBL.vb" />
+    <Compile Include="4 Menu\CobmoproBL.vb" />
+    <Compile Include="4 Menu\MenuBL.vb" />
+    <Compile Include="4 Menu\MenuDinamicoBL.vb" />
+    <Compile Include="4 Menu\usuariong.vb" />
+    <Compile Include="8 Parametros SIN\AmbienteSinBL.vb" />
+    <Compile Include="8 Parametros SIN\MetoPagoSinBL.vb" />
+    <Compile Include="8 Parametros SIN\DocuFiscalesSinBL.vb" />
+    <Compile Include="8 Parametros SIN\DocuIdentidadSinBL.vb" />
+    <Compile Include="8 Parametros SIN\DocuSectorSinBL.vb" />
+    <Compile Include="8 Parametros SIN\EvenSignicativoSinBL.vb" />
+    <Compile Include="8 Parametros SIN\MensSoapSinBL.vb" />
+    <Compile Include="8 Parametros SIN\ModalidadSinBL.vb" />
+    <Compile Include="8 Parametros SIN\MonedaSinBL.vb" />
+    <Compile Include="8 Parametros SIN\MotiAnulacionSinBL.vb" />
+    <Compile Include="8 Parametros SIN\PaisBL.vb" />
+    <Compile Include="8 Parametros SIN\TipoEmisionSinBL.vb" />
+    <Compile Include="8 Parametros SIN\UnidadMedidaBL.vb" />
+    <Compile Include="999\ImportarBL.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="1 Parametros\ParFacturaBL.vb" />
+    <Compile Include="2 Ventas\CierreVentasBL.vb" />
+    <Compile Include="1 Parametros\UtilitarioBL.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Datos\Datos.vbproj">
+      <Project>{12F5435D-12C1-421A-9F36-76D06365B227}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades\Entidades.vbproj">
+      <Project>{34D9C1F9-FB7C-4982-A6FE-14941C87DDD9}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Libreria
+</name>
+</assembly>
+<members>
+<member name="P:Libreria.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Libreria.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Libreria.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Libreria.LibUtilitarioSIN.getCataloFE(System.String)">
+	<summary>
+ retorna todos los TIPOS CATALOGOS OFICIALES /SFE_FRIGOR
+ </summary>
+	<param name="tipo"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Libreria.LibUtilitarioSIN.getCataloFE(System.String,System.String)">
+	<summary>
+ retorna todos los TIPOS CATALOGOS OFICIALES ESPECIFICOS /SFE_FRIGOR
+ </summary>
+	<param name="tipo"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Libreria.LibUtilitario.getTipoDocumento">
+	<summary>
+ retorna los TIPOS DE SOLICITUD /PRADCOM
+ </summary>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Libreria.LibPreVentas.getEsConFactura(System.String)">
+	<summary>
+ Obtiene el pavalor1 Es la Actividad (1,2,3, ..etc), IF pavalor2= 0 then Not Factura ELSE Con Factura 
+ </summary>
+	<param name="codTipoDocumento"> codigo tipo documento</param>
+	<returns>string</returns>
+	<remarks></remarks>
+</member><member name="M:Libreria.LibPreVentas.getVentaDespachoCII(System.String,System.String)">
+	<summary>
+ Funcion que obtine datos para la factura de despachos C-II (cabecera) db expcarne tdocumento = 99014 
+ </summary>
+	<param name="codTipoDocumento"></param>
+	<param name="nroNota"></param>
+	<returns>retorna una cadena</returns>
+	<remarks></remarks>
+</member><member name="M:Libreria.LibPreVentas.getCuerpoDespachoCII(System.String,System.String)">
+	<summary>
+ Funcion que obtine datos para la factura despachos C-II (Cuerpo) db expcarne tdocumento = 99014 
+ </summary>
+	<param name="codTipoDocumento"></param>
+	<param name="nroNota"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

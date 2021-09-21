@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c9a08bf4-5546-406d-a02c-5e309d9241a8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://presiatservicios.impuestos.gob.bo:39268/FacturacionSolicitudCufd?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioFacturacionCufdService.wsdl" MetadataType="Wsdl" ID="6ef6d68b-77fb-4a29-b0db-6ccb5500a61a" SourceId="1" SourceUrl="https://presiatservicios.impuestos.gob.bo:39268/FacturacionSolicitudCufd?wsdl" />
+    <MetadataFile FileName="IServicioFacturacionCufd.wsdl" MetadataType="Wsdl" ID="9ddaafe0-960d-422d-9dd4-fc151060b008" SourceId="1" SourceUrl="https://presiatservicios.impuestos.gob.bo:39268/FacturacionSolicitudCufd?wsdl=IServicioFacturacionCufd.wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

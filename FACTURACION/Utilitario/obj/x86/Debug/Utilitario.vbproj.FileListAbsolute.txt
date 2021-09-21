@@ -1,0 +1,9 @@
+D:\Facturacion\FACTURACION\Utilitario\bin\Debug\Utilitario.exe
+D:\Facturacion\FACTURACION\Utilitario\bin\Debug\Utilitario.pdb
+D:\Facturacion\FACTURACION\Utilitario\bin\Debug\Utilitario.xml
+D:\Facturacion\FACTURACION\Utilitario\obj\x86\Debug\Utilitario.vbprojResolveAssemblyReference.cache
+D:\Facturacion\FACTURACION\Utilitario\obj\x86\Debug\Utilitario.Resources.resources
+D:\Facturacion\FACTURACION\Utilitario\obj\x86\Debug\Utilitario.vbproj.GenerateResource.Cache
+D:\Facturacion\FACTURACION\Utilitario\obj\x86\Debug\Utilitario.exe
+D:\Facturacion\FACTURACION\Utilitario\obj\x86\Debug\Utilitario.xml
+D:\Facturacion\FACTURACION\Utilitario\obj\x86\Debug\Utilitario.pdb

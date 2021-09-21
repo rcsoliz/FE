@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="https://siat.impuestos.gob.bo/" name="IServicioSincronizacionFechaHora" targetNamespace="https://siat.impuestos.gob.bo/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="https://siat.impuestos.gob.bo/" elementFormDefault="unqualified" targetNamespace="https://siat.impuestos.gob.bo/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="sincronizarFechaHora" type="tns:sincronizarFechaHora" />
+      <xs:element name="sincronizarFechaHoraResponse" type="tns:sincronizarFechaHoraResponse" />
+      <xs:element name="verificarComunicacion" type="tns:verificarComunicacion" />
+      <xs:element name="verificarComunicacionResponse" type="tns:verificarComunicacionResponse" />
+      <xs:complexType name="verificarComunicacion">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="verificarComunicacionResponse">
+        <xs:sequence>
+          <xs:element name="return" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="sincronizarFechaHora">
+        <xs:sequence>
+          <xs:element name="SolicitudSincronizacion" type="tns:solicitudSincronizacion" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="solicitudSincronizacion">
+        <xs:sequence>
+          <xs:element name="codigoAmbiente" type="xs:int" />
+          <xs:element minOccurs="0" name="codigoPuntoVenta" nillable="true" type="xs:int" />
+          <xs:element name="codigoSistema" type="xs:string" />
+          <xs:element name="codigoSucursal" type="xs:int" />
+          <xs:element name="cuis" type="xs:string" />
+          <xs:element name="nit" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="sincronizarFechaHoraResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="RespuestaFechaHora" type="tns:respuestaFechaHora" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="respuestaFechaHora">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="fechaHora" type="xs:string" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="listaCodigosRespuestas" nillable="true" type="tns:respuestaCodigosMensajesSoapDto" />
+          <xs:element name="transaccion" type="xs:boolean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="respuestaCodigosMensajesSoapDto">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="codigoMensaje" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="verificarComunicacion">
+    <wsdl:part name="parameters" element="ns1:verificarComunicacion" />
+  </wsdl:message>
+  <wsdl:message name="verificarComunicacionResponse">
+    <wsdl:part name="parameters" element="ns1:verificarComunicacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="sincronizarFechaHora">
+    <wsdl:part name="parameters" element="ns1:sincronizarFechaHora" />
+  </wsdl:message>
+  <wsdl:message name="sincronizarFechaHoraResponse">
+    <wsdl:part name="parameters" element="ns1:sincronizarFechaHoraResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicioSincronizacionFechaHora">
+    <wsdl:operation name="verificarComunicacion">
+      <wsdl:input name="verificarComunicacion" message="ns1:verificarComunicacion" />
+      <wsdl:output name="verificarComunicacionResponse" message="ns1:verificarComunicacionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="sincronizarFechaHora">
+      <wsdl:input name="sincronizarFechaHora" message="ns1:sincronizarFechaHora" />
+      <wsdl:output name="sincronizarFechaHoraResponse" message="ns1:sincronizarFechaHoraResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

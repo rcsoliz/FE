@@ -1,0 +1,8 @@
+D:\Facturacion\FACTURACION\Entidades\bin\Debug\Entidades.dll
+D:\Facturacion\FACTURACION\Entidades\bin\Debug\Entidades.pdb
+D:\Facturacion\FACTURACION\Entidades\bin\Debug\Entidades.xml
+D:\Facturacion\FACTURACION\Entidades\obj\Debug\Entidades.Resources.resources
+D:\Facturacion\FACTURACION\Entidades\obj\Debug\Entidades.vbproj.GenerateResource.Cache
+D:\Facturacion\FACTURACION\Entidades\obj\Debug\Entidades.dll
+D:\Facturacion\FACTURACION\Entidades\obj\Debug\Entidades.xml
+D:\Facturacion\FACTURACION\Entidades\obj\Debug\Entidades.pdb

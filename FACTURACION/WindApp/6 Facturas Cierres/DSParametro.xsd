@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSParametro" targetNamespace="http://tempuri.org/DSParametro.xsd" xmlns:mstns="http://tempuri.org/DSParametro.xsd" xmlns="http://tempuri.org/DSParametro.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSParametro" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSParametro" msprop:Generator_UserDSName="DSParametro">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tbparametro" msprop:Generator_TableClassName="tbparametroDataTable" msprop:Generator_TableVarName="tabletbparametro" msprop:Generator_TablePropName="tbparametro" msprop:Generator_RowDeletingName="tbparametroRowDeleting" msprop:Generator_RowChangingName="tbparametroRowChanging" msprop:Generator_RowEvHandlerName="tbparametroRowChangeEventHandler" msprop:Generator_RowDeletedName="tbparametroRowDeleted" msprop:Generator_UserTableName="tbparametro" msprop:Generator_RowChangedName="tbparametroRowChanged" msprop:Generator_RowEvArgName="tbparametroRowChangeEvent" msprop:Generator_RowClassName="tbparametroRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="pacodigo" msprop:Generator_ColumnVarNameInTable="columnpacodigo" msprop:Generator_ColumnPropNameInRow="pacodigo" msprop:Generator_ColumnPropNameInTable="pacodigoColumn" msprop:Generator_UserColumnName="pacodigo" type="xs:string" minOccurs="0" />
+              <xs:element name="padescri" msprop:Generator_ColumnVarNameInTable="columnpadescri" msprop:Generator_ColumnPropNameInRow="padescri" msprop:Generator_ColumnPropNameInTable="padescriColumn" msprop:Generator_UserColumnName="padescri" type="xs:string" minOccurs="0" />
+              <xs:element name="pavalor1" msprop:Generator_ColumnVarNameInTable="columnpavalor1" msprop:Generator_ColumnPropNameInRow="pavalor1" msprop:Generator_ColumnPropNameInTable="pavalor1Column" msprop:Generator_UserColumnName="pavalor1" type="xs:string" minOccurs="0" />
+              <xs:element name="pavalor2" msprop:Generator_ColumnVarNameInTable="columnpavalor2" msprop:Generator_ColumnPropNameInRow="pavalor2" msprop:Generator_ColumnPropNameInTable="pavalor2Column" msprop:Generator_UserColumnName="pavalor2" type="xs:string" minOccurs="0" />
+              <xs:element name="cal1" msprop:Generator_ColumnVarNameInTable="columncal1" msprop:Generator_ColumnPropNameInRow="cal1" msprop:Generator_ColumnPropNameInTable="cal1Column" msprop:Generator_UserColumnName="cal1" type="xs:string" minOccurs="0" />
+              <xs:element name="cal2" msprop:Generator_ColumnVarNameInTable="columncal2" msprop:Generator_ColumnPropNameInRow="cal2" msprop:Generator_ColumnPropNameInTable="cal2Column" msprop:Generator_UserColumnName="cal2" type="xs:string" minOccurs="0" />
+              <xs:element name="cal3" msprop:Generator_ColumnVarNameInTable="columncal3" msprop:Generator_ColumnPropNameInRow="cal3" msprop:Generator_ColumnPropNameInTable="cal3Column" msprop:Generator_UserColumnName="cal3" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

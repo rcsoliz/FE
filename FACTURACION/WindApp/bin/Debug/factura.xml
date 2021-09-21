@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<facturaElectronicaEstandar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <cabecera>
+    <nitEmisor>1028739027</nitEmisor>
+    <numeroFactura>1</numeroFactura>
+    <cuf>a812312f1223892b</cuf>
+    <codigoSucursal>0</codigoSucursal>
+    <direccion>Parque Industrial PI-44</direccion>
+    <codigoPuntoVenta>1</codigoPuntoVenta>
+    <fechaEmision>17/04/2019 2:10:14</fechaEmision>
+    <nombreRazonSocial>NOMBRE S.A.</nombreRazonSocial>
+    <codigoTipoDocumentoIdentidad>1</codigoTipoDocumentoIdentidad>
+    <numeroDocumento>2615</numeroDocumento>
+    <complemento />
+    <codigoCliente>MMMario</codigoCliente>
+    <codigoMetodoPago>1</codigoMetodoPago>
+    <numeroTarjeta />
+    <montoTotal>3500</montoTotal>
+    <montoDescuento>0</montoDescuento>
+    <codigoMoneda>688</codigoMoneda>
+    <tipoCambio>6.96</tipoCambio>
+    <montoTotalMoneda>502.87</montoTotalMoneda>
+    <leyenda>Ley N° 453: Tienes derecho a recibir información sobre las características y contenidos de los servicios que utilices.</leyenda>
+    <usuario>admin</usuario>
+    <codigoDocumentoSector>1</codigoDocumentoSector>
+  </cabecera>
+  <detalle>
+    <actividadEconomica>103020</actividadEconomica>
+    <codigoProductoSin>21431</codigoProductoSin>
+    <codigoProducto>1005</codigoProducto>
+    <descripcion>COLITA DE CUADRIL</descripcion>
+    <cantidad>100</cantidad>
+    <unidadMedida>KG</unidadMedida>
+    <precioUnitario>25</precioUnitario>
+    <montoDescuento>0</montoDescuento>
+    <subTotal>2500</subTotal>
+    <numeroSerie>0</numeroSerie>
+  </detalle>
+</facturaElectronicaEstandar>

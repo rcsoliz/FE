@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<facturaElectronicaEstandar xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<cabecera>
+		<nitEmisor>1028739027</nitEmisor>
+		<numeroFactura>1</numeroFactura>
+		<cuf>B43240DF5D9AD80D4B794CDD1FD3B1117F46A6B0</cuf>
+		<cufd>802C6AA9CFE81176C91B6A5F31A3C588</cufd>
+		<codigoSucursal>0</codigoSucursal>
+		<direccion>Parque Industrial PI-44</direccion>
+		<codigoPuntoVenta>1</codigoPuntoVenta>
+		<fechaEmision>2019-07-30T09:22:11.548</fechaEmision>
+		<nombreRazonSocial>FRIGOR S.A.</nombreRazonSocial>
+		<codigoTipoDocumentoIdentidad>1</codigoTipoDocumentoIdentidad>
+		<numeroDocumento>5861642</numeroDocumento>
+		<complemento xsi:nil="true" />
+		<codigoCliente>315</codigoCliente>
+		<codigoMetodoPago>1</codigoMetodoPago>
+		<numeroTarjeta xsi:nil="true" />
+		<montoTotal>100</montoTotal>
+		<montoDescuento xsi:nil="true" />
+		<codigoMoneda>688</codigoMoneda>
+		<tipoCambio>1</tipoCambio>
+		<montoTotalMoneda>100</montoTotalMoneda>
+		<leyenda>Ley N° 453: Tienes</leyenda>
+		<usuario>sa</usuario>
+		<codigoDocumentoSector>1</codigoDocumentoSector>
+		<codigoExcepcionDocumento xsi:nil="true" />
+    </cabecera>
+	<detalle>
+		<actividadEconomica>101013</actividadEconomica>
+		<codigoProductoSin>21111</codigoProductoSin><codigoProducto>1005</codigoProducto>
+		<descripcion>COLITA DE CUADRIL</descripcion>
+		<cantidad>4</cantidad>
+		<unidadMedida>22</unidadMedida>
+		<precioUnitario>25</precioUnitario>
+		<montoDescuento xsi:nil="true" />
+		<subTotal>100</subTotal>
+		<numeroSerie xsi:nil="true" />
+		<numeroImei>0201.10.00.00</numeroImei>
+	</detalle>
+	<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<SignedInfo>
+			<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+			<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" />
+			<Reference URI="">
+				<Transforms>
+					<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+					<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments" />
+				</Transforms>
+				<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" />
+				<DigestValue>63T2AlpjjP6gGV0g3QFM6SwVM5Ju5u5koKscdxfjBSo=</DigestValue>
+			</Reference>
+		</SignedInfo>
+		<SignatureValue>VaMw9VmR54JA7GaAMYt21r+bpwPnE0EX29Ovl8YZ6ccJ+wAT+EwEss1yiMWHbNBWmP7jNd2eE/FlOwK4Z+HlrFY5j7i+5InpRb8NucctTyKa
+		dbCHL6++hGoOMlEOMz3vm2ghJ21nV1bXcyPGoKxBfB1d5kAf8s22AfTmdpbYtmZYOZAcfn471UOUdfygnm+rt754PevvxuR5fRJW17gD9cDoSEP3xefWzu84gjSO
+		DVlkk1gdXBQbA2nakwKOuW7F9P/6yKXR/iv1DqJZwwOnySg0RfOsWrbKfOMaZ2pwGRdWUB7VESpj0y6STOP2spkgiyXRq5P5lnYBQPguAquduA==
+		</SignatureValue>
+		<KeyInfo>
+			<X509Data>
+				<X509Certificate>MIID2DCCAsCgAwIBAgIIEbWBcyzEpgAwDQYJKoZIhvcNAQEFBQAwLzEQMA4GA1UEAwwHYWRtaW5DQTEOMAwGA1UECgwFQURTSUIxCzAJBgNV
+				BAYTAkJPMB4XDTE5MDcwNDEzNTIwMVoXDTIwMDcwMzEzNTIwMVowgeMxJjAkBgNVBAMMHUpvc2UgRmVybmFkbyBDZXNwZWRlcyBTYXVjZWRvMRQwEgYHKwYBAQEBA
+				AwHMjgzODMwOTEPMA0GA1UECgwGRnJpZ29yMQswCQYDVQQGEwJCTzESMBAGCgmSJomT8ixkAQEMAjIwMSgwJgYJKoZIhvcNAQkBFhlzb3BvcnRlLmNwZEBmcmlnb3
+				IuY29tLmJvMQswCQYDVQQuEwJDSTETMBEGA1UEBRMKMTAyODczOTAyNzELMAkGA1UECwwCSVQxGDAWBgNVBAwMD0dlcmVudGUgR2VuZXJhbDCCASIwDQYJKoZIhvcN
+				AQEBBQADggEPADCCAQoCggEBAJDHcHl8HRi9n3Q+Xq8z3CI7LVoefQ7B/8SML75kzqDdCjcC8/42EKf3JXoR7pS/hvrqVVNrm2MQc3exgzuUFa7nN6Kg5fhr5XbbgX
+				dFwkH3/heNnt4vIObQHnhFQFjQ2o8lOV+OvQQzuob6XSu+P6J+jq4RCc3OAZyAFwe7BoVHHRP362osYqkiuT+IhdVjc+LHEOQROZug63Aj4XHWN5qupk9G2Vr/4Tq1
+				/pp+VjR0ABKMlubd2robOHB9ek2dom6HN7uT4kY2rFqe9Gjh7Z7+hcOkFOhlYleulJXBOnBAj5RJXHnj1Ji9boVP273KlBDQzHZ1QTz44WEbs6Ek67sCAwEAAaNDME
+				EwDAYDVR0TBAUwAwEB/zALBgNVHQ8EBAMCBPAwJAYDVR0RBB0wG4YZc29wb3J0ZS5jcGRAZnJpZ29yLmNvbS5ibzANBgkqhkiG9w0BAQUFAAOCAQEAVnil6fWYLTJB
+				mA9VSDoKwz5nQFMS8vkuWqJg1XMpHvIKheWYLFXggFwcCdBdaio+plNZqV9NZDEI6B6GzGc942yR8KnTD4Wn/yS2wdoYWw6tIfjiq1ehtTqNzJCNddl90ppikeiCWp
+				5mYmsMy3UorX/shH+z9VsqxYkOjXjtlBX7toi93tN5flI6VOgEuPkLK/bExy25EkZEUOARwcQlwGRYrb8BfxDSz/YL2rifORXcBkyEQVmViewZT8bMlImtCaUy3JFS
+				yLHAwltzpMgTncdD/faZjGOMs9k8YVmW3/QFS1dxcGrlaG2xizsdfbB5TNBz3ZxMlhsyl2cQ72RSXg==
+				</X509Certificate>
+			</X509Data>
+		</KeyInfo>
+	</Signature>
+</facturaElectronicaEstandar>

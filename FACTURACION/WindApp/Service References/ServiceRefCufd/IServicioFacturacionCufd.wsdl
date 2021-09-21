@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="https://siat.impuestos.gob.bo/" name="IServicioFacturacionCufd" targetNamespace="https://siat.impuestos.gob.bo/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xs:schema xmlns:tns="https://siat.impuestos.gob.bo/" elementFormDefault="unqualified" targetNamespace="https://siat.impuestos.gob.bo/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="solicitudCufd" type="tns:solicitudCufd" />
+      <xs:element name="solicitudCufdResponse" type="tns:solicitudCufdResponse" />
+      <xs:element name="verificarComunicacion" type="tns:verificarComunicacion" />
+      <xs:element name="verificarComunicacionResponse" type="tns:verificarComunicacionResponse" />
+      <xs:complexType name="verificarComunicacion">
+        <xs:sequence />
+      </xs:complexType>
+      <xs:complexType name="verificarComunicacionResponse">
+        <xs:sequence>
+          <xs:element name="return" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="solicitudCufd">
+        <xs:sequence>
+          <xs:element name="SolicitudOperaciones" type="tns:solicitudOperaciones" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="solicitudOperaciones">
+        <xs:sequence>
+          <xs:element name="codigoAmbiente" type="xs:int" />
+          <xs:element name="codigoModalidad" type="xs:int" />
+          <xs:element minOccurs="0" name="codigoPuntoVenta" nillable="true" type="xs:int" />
+          <xs:element name="codigoSistema" type="xs:string" />
+          <xs:element name="codigoSucursal" type="xs:int" />
+          <xs:element name="cuis" type="xs:string" />
+          <xs:element name="nit" type="xs:long" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="solicitudCufdResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="RespuestaCufd" type="tns:respuestaCufd" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="respuestaCufd">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="codigo" type="xs:string" />
+          <xs:element minOccurs="0" name="fechaVigencia" type="xs:dateTime" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="listaCodigosRespuestas" nillable="true" type="tns:respuestaCodigosMensajesSoapDto" />
+          <xs:element name="transaccion" type="xs:boolean" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="respuestaCodigosMensajesSoapDto">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="codigoMensaje" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="verificarComunicacion">
+    <wsdl:part name="parameters" element="ns1:verificarComunicacion" />
+  </wsdl:message>
+  <wsdl:message name="verificarComunicacionResponse">
+    <wsdl:part name="parameters" element="ns1:verificarComunicacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="solicitudCufd">
+    <wsdl:part name="parameters" element="ns1:solicitudCufd" />
+  </wsdl:message>
+  <wsdl:message name="solicitudCufdResponse">
+    <wsdl:part name="parameters" element="ns1:solicitudCufdResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IServicioFacturacionCufd">
+    <wsdl:operation name="verificarComunicacion">
+      <wsdl:input name="verificarComunicacion" message="ns1:verificarComunicacion" />
+      <wsdl:output name="verificarComunicacionResponse" message="ns1:verificarComunicacionResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="solicitudCufd">
+      <wsdl:input name="solicitudCufd" message="ns1:solicitudCufd" />
+      <wsdl:output name="solicitudCufdResponse" message="ns1:solicitudCufdResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

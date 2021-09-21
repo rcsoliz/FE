@@ -1,0 +1,15 @@
+D:\Facturacion\FACTURACION\Datos\bin\Debug\Datos.dll
+D:\Facturacion\FACTURACION\Datos\bin\Debug\Datos.pdb
+D:\Facturacion\FACTURACION\Datos\bin\Debug\Datos.xml
+D:\Facturacion\FACTURACION\Datos\bin\Debug\Entidades.dll
+D:\Facturacion\FACTURACION\Datos\bin\Debug\Libreria.dll
+D:\Facturacion\FACTURACION\Datos\bin\Debug\Entidades.pdb
+D:\Facturacion\FACTURACION\Datos\bin\Debug\Entidades.xml
+D:\Facturacion\FACTURACION\Datos\bin\Debug\Libreria.pdb
+D:\Facturacion\FACTURACION\Datos\bin\Debug\Libreria.xml
+D:\Facturacion\FACTURACION\Datos\obj\Debug\Datos.vbprojResolveAssemblyReference.cache
+D:\Facturacion\FACTURACION\Datos\obj\Debug\Datos.Resources.resources
+D:\Facturacion\FACTURACION\Datos\obj\Debug\Datos.vbproj.GenerateResource.Cache
+D:\Facturacion\FACTURACION\Datos\obj\Debug\Datos.dll
+D:\Facturacion\FACTURACION\Datos\obj\Debug\Datos.xml
+D:\Facturacion\FACTURACION\Datos\obj\Debug\Datos.pdb

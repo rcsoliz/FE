@@ -1,0 +1,12 @@
+D:\Facturacion\FACTURACION\Libreria\bin\Debug\Libreria.dll
+D:\Facturacion\FACTURACION\Libreria\bin\Debug\Libreria.pdb
+D:\Facturacion\FACTURACION\Libreria\bin\Debug\Libreria.xml
+D:\Facturacion\FACTURACION\Libreria\bin\Debug\Entidades.dll
+D:\Facturacion\FACTURACION\Libreria\bin\Debug\Entidades.pdb
+D:\Facturacion\FACTURACION\Libreria\bin\Debug\Entidades.xml
+D:\Facturacion\FACTURACION\Libreria\obj\Debug\Libreria.vbprojResolveAssemblyReference.cache
+D:\Facturacion\FACTURACION\Libreria\obj\Debug\Libreria.Resources.resources
+D:\Facturacion\FACTURACION\Libreria\obj\Debug\Libreria.vbproj.GenerateResource.Cache
+D:\Facturacion\FACTURACION\Libreria\obj\Debug\Libreria.dll
+D:\Facturacion\FACTURACION\Libreria\obj\Debug\Libreria.xml
+D:\Facturacion\FACTURACION\Libreria\obj\Debug\Libreria.pdb

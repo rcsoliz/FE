@@ -1,0 +1,415 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WindApp
+</name>
+</assembly>
+<members>
+<member name="P:WindApp.ServiceRefSinFechaHora.solicitudSincronizacion.codigoAmbiente">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefSinFechaHora.solicitudSincronizacion.codigoPuntoVenta">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefSinFechaHora.solicitudSincronizacion.codigoPuntoVentaSpecified">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefSinFechaHora.solicitudSincronizacion.codigoSistema">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefSinFechaHora.solicitudSincronizacion.codigoSucursal">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefSinFechaHora.solicitudSincronizacion.cuis">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefSinFechaHora.solicitudSincronizacion.nit">
+	<comentarios/>
+</member><member name="T:WindApp.ServiceRefSinFechaHora.solicitudSincronizacion">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefSinFechaHora.respuestaCodigosMensajesSoapDto.codigoMensaje">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefSinFechaHora.respuestaCodigosMensajesSoapDto.codigoMensajeSpecified">
+	<comentarios/>
+</member><member name="T:WindApp.ServiceRefSinFechaHora.respuestaCodigosMensajesSoapDto">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefSinFechaHora.respuestaFechaHora.fechaHora">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefSinFechaHora.respuestaFechaHora.listaCodigosRespuestas">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefSinFechaHora.respuestaFechaHora.transaccion">
+	<comentarios/>
+</member><member name="T:WindApp.ServiceRefSinFechaHora.respuestaFechaHora">
+	<comentarios/>
+</member><member name="T:WindApp.DSEXRegistrar.tb_cobacces1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindApp.DSEXRegistrar.tb_cobacces1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindApp.DSEXRegistrar.tb_cobacces1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindApp.DSEXRegistrar">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:WindApp.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:WindApp.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="T:WindApp.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.abrirArchivo">
+	<summary>
+  Busca una cadena traducida similar a Desea abrir el archivo de resultado?.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.formatosCertificado">
+	<summary>
+  Busca una cadena traducida similar a Certificados Digitales (*.cer;*.pfx;*.p7b)|*.cer;*.pfx;*.p7b.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.formatosXml">
+	<summary>
+  Busca una cadena traducida similar a Documentos XML sin firma (*.xml)|*.xml.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.msEliminar">
+	<summary>
+  Busca una cadena traducida similar a ¿Esta seguroo de eliminar el registro?.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.msgAccesoBaja">
+	<summary>
+  Busca una cadena traducida similar a ¿Usted no tiene acceso a eliminar?.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.msgAccesoConsulta">
+	<summary>
+  Busca una cadena traducida similar a ¿Usted no tiene acceso a consultar?.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.msgAccesoExportar">
+	<summary>
+  Busca una cadena traducida similar a ¿Usted no tiene acceso a exportar?.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.msgAccesoGrabar">
+	<summary>
+  Busca una cadena traducida similar a ¿Usted no tiene acceso a grabar?.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.msgAccesoImprimir">
+	<summary>
+  Busca una cadena traducida similar a ¿Usted no tiene acceso a imprimir?.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.msgAccesoModificar">
+	<summary>
+  Busca una cadena traducida similar a ¿Usted no tiene acceso a modificar?.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.msgConfirme">
+	<summary>
+  Busca una cadena traducida similar a Confirme.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.msOK">
+	<summary>
+  Busca una cadena traducida similar a Transacción realizada.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.msTitulo">
+	<summary>
+  Busca una cadena traducida similar a Información.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.procesoCorrecto">
+	<summary>
+  Busca una cadena traducida similar a Proceso enviado a SIAT correctamente!.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.seleccioneCertificado">
+	<summary>
+  Busca una cadena traducida similar a Seleccione un Certificado.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.seleccionPfx">
+	<summary>
+  Busca una cadena traducida similar a Seleccione un Documento Pfx SIAT.
+</summary>
+</member><member name="P:WindApp.My.Resources.rcRecursos.seleccionXml">
+	<summary>
+  Busca una cadena traducida similar a Seleccione un Documento XML SIAT.
+</summary>
+</member><member name="T:WindApp.My.Resources.rcRecursos">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="T:WindApp.DSCliente.tb_clienteinDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindApp.DSCliente.tb_clientenegocioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindApp.DSCliente.tb_clienteinRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindApp.DSCliente.tb_clientenegocioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindApp.DSCliente.tb_clienteinRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindApp.DSCliente.tb_clientenegocioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindApp.DSCliente">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:WindApp.DSVentaFact.tbventaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindApp.DSVentaFact.tbventaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindApp.DSVentaFact.tbventaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindApp.DSVentaFact">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudRecepcion.archivo">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudRecepcion.codigoAmbiente">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudRecepcion.codigoDocumentoFiscal">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudRecepcion.codigoDocumentoSector">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudRecepcion.codigoEmision">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudRecepcion.codigoModalidad">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudRecepcion.codigoPuntoVenta">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudRecepcion.codigoPuntoVentaSpecified">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudRecepcion.codigoSistema">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudRecepcion.codigoSucursal">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudRecepcion.cufd">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudRecepcion.cuis">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudRecepcion.fechaEnvio">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudRecepcion.hashArchivo">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudRecepcion.nit">
+	<comentarios/>
+</member><member name="T:WindApp.ServiceRefFEstandar.solicitudRecepcion">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudAnulacion.codigoAmbiente">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudAnulacion.codigoDocumentoFiscal">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudAnulacion.codigoDocumentoSector">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudAnulacion.codigoEmision">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudAnulacion.codigoModalidad">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudAnulacion.codigoMotivo">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudAnulacion.codigoPuntoVenta">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudAnulacion.codigoPuntoVentaSpecified">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudAnulacion.codigoSistema">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudAnulacion.codigoSucursal">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudAnulacion.cuf">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudAnulacion.cufd">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudAnulacion.cuis">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudAnulacion.nit">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudAnulacion.numeroDocumentoFiscal">
+	<comentarios/>
+</member><member name="T:WindApp.ServiceRefFEstandar.solicitudAnulacion">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionRecepcion.codigoAmbiente">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionRecepcion.codigoDocumentoFiscal">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionRecepcion.codigoDocumentoSector">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionRecepcion.codigoEmision">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionRecepcion.codigoModalidad">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionRecepcion.codigoPuntoVenta">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionRecepcion.codigoPuntoVentaSpecified">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionRecepcion.codigoRecepcion">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionRecepcion.codigoSistema">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionRecepcion.codigoSucursal">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionRecepcion.cufd">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionRecepcion.cuis">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionRecepcion.nit">
+	<comentarios/>
+</member><member name="T:WindApp.ServiceRefFEstandar.solicitudValidacionRecepcion">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionAnulacion.codigoAmbiente">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionAnulacion.codigoDocumentoFiscal">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionAnulacion.codigoDocumentoSector">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionAnulacion.codigoEmision">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionAnulacion.codigoModalidad">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionAnulacion.codigoMotivo">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionAnulacion.codigoPuntoVenta">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionAnulacion.codigoPuntoVentaSpecified">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionAnulacion.codigoRecepcion">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionAnulacion.codigoSistema">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionAnulacion.codigoSucursal">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionAnulacion.cuf">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionAnulacion.cufd">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionAnulacion.cuis">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionAnulacion.nit">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.solicitudValidacionAnulacion.numeroDocumentoFiscal">
+	<comentarios/>
+</member><member name="T:WindApp.ServiceRefFEstandar.solicitudValidacionAnulacion">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.recepcionErrorDetalleDto.codigoRecepcionIndividual">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.recepcionErrorDetalleDto.cuf">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.recepcionErrorDetalleDto.listaCodigosError">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.recepcionErrorDetalleDto.numeroFactura">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.recepcionErrorDetalleDto.numeroFacturaSpecified">
+	<comentarios/>
+</member><member name="T:WindApp.ServiceRefFEstandar.recepcionErrorDetalleDto">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.respuesta.codigoEstado">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.respuesta.codigoRecepcion">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.respuesta.listaCodigosRespuestas">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.respuesta.listaDescripcionesRespuestas">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.respuesta.listaErroresDetalles">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefFEstandar.respuesta.transaccion">
+	<comentarios/>
+</member><member name="T:WindApp.ServiceRefFEstandar.respuesta">
+	<comentarios/>
+</member><member name="T:WindApp.DSERegistrados.tb_cobacces1DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindApp.DSERegistrados.tb_cobacces1Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindApp.DSERegistrados.tb_cobacces1RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindApp.DSERegistrados">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:WindApp.ServiceRefCufd.solicitudOperaciones.codigoAmbiente">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefCufd.solicitudOperaciones.codigoModalidad">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefCufd.solicitudOperaciones.codigoPuntoVenta">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefCufd.solicitudOperaciones.codigoPuntoVentaSpecified">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefCufd.solicitudOperaciones.codigoSistema">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefCufd.solicitudOperaciones.codigoSucursal">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefCufd.solicitudOperaciones.cuis">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefCufd.solicitudOperaciones.nit">
+	<comentarios/>
+</member><member name="T:WindApp.ServiceRefCufd.solicitudOperaciones">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefCufd.respuestaCodigosMensajesSoapDto.codigoMensaje">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefCufd.respuestaCodigosMensajesSoapDto.codigoMensajeSpecified">
+	<comentarios/>
+</member><member name="T:WindApp.ServiceRefCufd.respuestaCodigosMensajesSoapDto">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefCufd.respuestaCufd.codigo">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefCufd.respuestaCufd.fechaVigencia">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefCufd.respuestaCufd.fechaVigenciaSpecified">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefCufd.respuestaCufd.listaCodigosRespuestas">
+	<comentarios/>
+</member><member name="P:WindApp.ServiceRefCufd.respuestaCufd.transaccion">
+	<comentarios/>
+</member><member name="T:WindApp.ServiceRefCufd.respuestaCufd">
+	<comentarios/>
+</member><member name="T:WindApp.DSParametro.tbparametroDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:WindApp.DSParametro.tbparametroRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:WindApp.DSParametro.tbparametroRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:WindApp.DSParametro">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>

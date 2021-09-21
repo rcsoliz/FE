@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:ns2="http://schemas.xmlsoap.org/soap/http" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="https://siat.impuestos.gob.bo/FacturacionSincronizacionFechaHora" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="https://siat.impuestos.gob.bo/" name="ServicioSincronizacionFechaHoraService" targetNamespace="https://siat.impuestos.gob.bo/FacturacionSincronizacionFechaHora" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="https://siat.impuestos.gob.bo/" location="https://presiatservicios.impuestos.gob.bo:39266/FacturacionSincronizacionFechaHora?wsdl=IServicioSincronizacionFechaHora.wsdl" />
+  <wsdl:types />
+  <wsdl:binding name="ServicioSincronizacionFechaHoraServiceSoapBinding" type="ns1:IServicioSincronizacionFechaHora">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="verificarComunicacion">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="verificarComunicacion">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="verificarComunicacionResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="sincronizarFechaHora">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input name="sincronizarFechaHora">
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="sincronizarFechaHoraResponse">
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicioSincronizacionFechaHoraService">
+    <wsdl:port name="ServicioSincronizacionFechaHoraPort" binding="tns:ServicioSincronizacionFechaHoraServiceSoapBinding">
+      <soap:address location="https://presiatservicios.impuestos.gob.bo:39266/FacturacionSincronizacionFechaHora" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
